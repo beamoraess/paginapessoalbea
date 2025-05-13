@@ -52,17 +52,38 @@
       </div>
 
     </section>
-    <section>
-      <h2>Entre em contato comigo</h2>
-      <form>
-        <label for="nome">Nome: </label>
-        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" /><br />
+    <section id="experiencias">
+      <h2 class="experiencia-titulo">Formação</h2>
 
-        <label for="email">E-mail: </label>
-        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" /><br />
+      <div class="experiencia-lista">
+        <h3>Desenvolvedora Front End</h3>
+        <a href="" target="_blank">Zydon</a>
+        <p>Desenvolvimento Front End de plataformas B2B</p>
 
-        <label for="mensagem">Mensagem: </label>
-        <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea><br />
+        <h3>Professora de Desenvolvimento Front End</h3>
+        <a href="https://minasprogramam.com" target="_blank">Minas Programam</a>
+        <p>Ensino conceitos introdutórios de desenvolvimento front-end</p>
+      </div>
+    </section>
+    <section id="contato">
+      <h2 class="contato-titulo">Entre em contato comigo</h2>
+      <form class="contato-formulario">
+        <div class="contato-grupoinput">
+          <div class="contato-input">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" />
+          </div>
+
+          <div class="contato-input">
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" />
+          </div>
+        </div>
+
+        <div class="contato-input">
+          <label for="mensagem">Mensagem: </label>
+          <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
+        </div>
 
         <button type="submit">Enviar</button>
       </form>

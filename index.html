@@ -17,10 +17,10 @@
     <h1 class="logo">Beatriz Moraes</h1>
     <nav class="navegacao">
       <ul>
-        <li>Sobre Mim</li>
-        <li>Formação</li>
-        <li>Experiências</li>
-        <li>Contato</li>
+        <li><a href="#sobre">Sobre Mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -53,7 +53,7 @@
 
     </section>
     <section id="experiencias">
-      <h2 class="experiencia-titulo">Formação</h2>
+      <h2 class="experiencia-titulo">Experiências</h2>
 
       <div class="experiencia-lista">
         <h3>Desenvolvedora Front End</h3>
@@ -67,7 +67,7 @@
     </section>
     <section id="contato">
       <h2 class="contato-titulo">Entre em contato comigo</h2>
-      <form class="contato-formulario">
+      <form action="https://formspree.io/f/mrbqrnvj" method="POST" class="contato-formulario">
         <div class="contato-grupoinput">
           <div class="contato-input">
             <label for="nome">Nome: </label>
@@ -85,12 +85,24 @@
           <textarea id="mensagem" name="mensagem" placeholder="Escreva a sua mensagem" rows="5"></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+        <button class="btn-enviar" type="submit">Enviar</button>
       </form>
     </section>
   </main>
-  <footer>
-    <a href="https://www.linkedin.com/in/beatriz-m-silva/" target="_blank">Linkedin</a>
+  <footer class="rodape">
+    <div class="rodape-contatos">
+      <p><img src="imagens/instagram-logo.png" alt="Logo do Instagram" /> <a
+          href="https://instagram.com/beadmoraes">@beadmoraes</a> </p>
+      <p><img src="imagens/github-logo.png" alt="Logo do Github" /> <a
+          href="https://github.com/beamoraess">beamoraess</a> </p>
+      <p><img src="imagens/linkedin-logo.png" alt="Logo do Linkedin" /> <a
+          href="https://linkedin/in/beatriz-m-silva">Beatriz Moraes</a> </p>
+    </div>
+
+    <div class="rodape-logo">
+      <a href="https://minasprogramam.com/"><img class="logo-minas" src="imagens/minasprogram-logo.png"
+          alt="Logo do Minas Programam" /></a>
+    </div>
   </footer>
 </body>
 
